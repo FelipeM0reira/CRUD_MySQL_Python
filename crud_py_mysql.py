@@ -21,7 +21,8 @@ resultado = cursor.fetchall() # ler o banco de dados.
 # Creat
 nome_filme = "Jhon Wick"
 nota_filme = 9.2
-comando = f'INSERT INTO filmes (nome_filme, nota_filme) VALUES ("{nome_filme}", {nota_filme})'
+genero_filme = "Ação"
+comando = f'INSERT INTO filmes (nome_filme, nota_filme) VALUES ("{nome_filme}", {nota_filme}, "{genero_filme}")'
 cursor.execute(comando)
 conexao.commit()
 
@@ -35,7 +36,8 @@ print(resultado)
 # Update
 nome_filme = "Jhon Wick"
 nota_filme = 9.3
-comando = f'UPDATE filmes SET nota_filme = {nota_filme} WHERE nome_filme = "{nome_filme}"'
+genero_filme = "Ação"
+comando = f'UPDATE filmes SET nota_filme = {nota_filme} WHERE nome_filme = "{nome_filme}" WHERE genero_filme = "{genero_filme}"'
 cursor.execute(comando)
 conexao.commit()
 
