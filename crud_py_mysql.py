@@ -40,10 +40,11 @@ def read():
 
 # Update
 def update():
+    id_filme = input('Digite o id do filmes para ser editado: ')
     nome_filme = input('Digite o nome do filme: ')
     nota_filme = float(input('Digite a nota do filme: '))
     genero_filme = input('Digite o genero do filme: ')
-    comando = f'UPDATE filmes SET nota_filme = {nota_filme} WHERE nome_filme = "{nome_filme}" WHERE genero_filme = "{genero_filme}"'
+    comando = f'UPDATE filmes SET nome_filme = "{nome_filme}", nota_filme = "{nota_filme}", genero_filme = "{genero_filme}" WHERE idFilmes = "{id_filme}"'
     cursor.execute(comando)
     conexao.commit()
 
