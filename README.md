@@ -14,7 +14,7 @@
 
 - `Funcionalidade 2`: Read.
 
-
+![Read](https://user-images.githubusercontent.com/104744113/173688730-a1a61af9-6633-465a-9e79-19c4d4eef3ac.gif)
 
 - `Funcionalidade 3`: Update.
 
