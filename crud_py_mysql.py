@@ -51,8 +51,8 @@ def update():
 
 # Delete
 def delete():
-    nome_filme = input('Digite o nome do filme que você quer deleta: ')
-    comando = f'DELETE FROM filmes WHERE nome_filme = "{nome_filme}"'
+    id_filme = input('Digite o id do filme que você quer deleta: ')
+    comando = f'DELETE FROM filmes WHERE idFilmes = "{id_filme}"'
     cursor.execute(comando)
     conexao.commit()
 
