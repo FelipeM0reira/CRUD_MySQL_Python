@@ -22,7 +22,7 @@
 
 - `Funcionalidade 4`: Delete.
 
-
+![Delete](https://user-images.githubusercontent.com/104744113/173695309-39856b1a-1732-44da-bcd5-42bbbc3f51ce.gif)
 
 # <h1 align="center">🛰️ Tecnologias utilizadas</h1>
 - Python 3.10.4.
